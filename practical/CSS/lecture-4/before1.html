@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BEFORE 1</title>
+	<style type="text/css">
+		header{width: 100%;
+				height: 1000px;
+				background-image: url(bg.jpg);
+						}
+		header::before{
+content:"";
+position: absolute;
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+background-image: linear-gradient(red,blue,black,yellow,green);
+opacity: 0.4;
+
+
+		}
+
+	</style>
+</head>
+<body>
+<header></header>
+</body>
+</html>
