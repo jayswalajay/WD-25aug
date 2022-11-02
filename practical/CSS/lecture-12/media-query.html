@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media Query </title>
+	<style type="text/css">
+		.main{display: flex;
+			 justify-content: space-evenly;
+
+
+		}
+		.a{width: 23%;
+			height: 200px;
+			border: 1px solid black;
+			background-color: red;
+
+
+		}
+		.b{width: 23%;
+			height: 200px;
+			border: 1px solid black;
+			background-color:blue ;
+
+
+		}
+		.c{width: 23%;
+			height: 200px;
+			border: 1px solid black;
+			background-color: pink;
+
+
+		}
+		.d{width: 23%;
+			height: 200px;
+			border: 1px solid black;
+			background-color:gold ;
+
+
+		}
+		@media(max-width: 576px)
+		{ 
+			.main{display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				column-gap: 5%;
+				padding: 10px;
+				grid-row-gap: 10px;
+
+			}
+			.a{width: 100%;
+
+			}
+			.b{width: 100%;
+
+
+			}
+			.c{width: 100%;
+
+
+			}
+			.d{width: 100%;
+
+			}
+		}
+		@media(max-width: 480px)
+		{
+			.main{display: grid;
+				grid-template-columns: repeat(1, 1fr);
+
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+</div>
+</body>
+</html>

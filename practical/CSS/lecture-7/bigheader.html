@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>header</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		.header{
+			width: 100%;
+			height: 100vh;
+			background-image: url(bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*display: flex;*/
+		}
+		.logo{
+			width: 15%;
+			height: 100px;
+			float: left;
+		}
+		.logo img{
+			width: 100%;
+			height: 100px;
+		}
+		nav{
+			/*width: 85%;*/
+			height: 100px;
+			/*border: 1px solid black;*/
+
+		}
+		nav ul{
+			float: right;
+		}
+		nav ul li {
+			padding: 15px;
+			display: inline-block;
+			/*float: right;*/
+		}
+		nav ul li a{
+			
+			font-size: 40px;
+			text-decoration: none;
+			color: whitesmoke;
+			/*padding: 15px;*/
+		}
+		.text{
+			margin-top: 15%;
+		}
+		.text h1{
+			font-size: 50px;
+		}
+		.text p{
+			font-size: 30px;
+			color: white;
+		}
+		.text button{
+			padding: 10px;
+			font-size: 30px;
+			border-radius: 25%;
+			background: red;
+		}
+		.section
+		{
+			width: 100%;
+			height: 500px;
+			/*border: 1px solid black;*/
+		}
+		.section h1{
+			text-align: center;
+			margin-top: 10px;
+		}
+		.main{
+			margin-top: 10px;
+			width: 100%;
+			height: 300px;
+			display: flex;
+			/*margin-left: 10%;*/
+			justify-content: space-evenly;
+			/*border: 1px solid black;*/
+		}
+		.a{
+			width: 30%;
+			padding: 5px;
+			height: 300px;
+		}
+		.a img{
+			width: 100%;
+			height: 100%;
+			border-radius: 20%;
+		}
+		.a h3{
+			text-align: center;
+		}
+		.b{
+			padding: 5px;
+			width: 30%;
+			height: 300px;
+		}
+				.b img{
+			width: 100%;
+			height: 100%;
+			border-radius: 20%;
+		}
+		.b h3{
+			text-align: center;
+		}
+		.c{
+			padding: 5px;
+			width: 30%;
+			height: 300px;
+		}
+				.c img{
+			width: 100%;
+			height: 100%;
+			border-radius: 20%;
+		}
+		.c h3{
+			text-align: center;
+		}
+
+		
+		.d{
+			width: 16.66%;
+			height: 300px;
+		}
+				.d img{
+			width: 100%;
+			height: 100%;
+		}
+		.e{
+			width: 16.66%;
+			height: 300px;
+		}
+				.e img{
+			width: 100%;
+			height: 100%;
+		}
+		.f{
+			width: 16.66%;
+			height: 300px;
+		}
+				.f img{
+			width: 100%;
+			height: 100%;
+		}
+		@media(max-width: 576px)
+		{
+			.main{
+				margin-top: 250px;
+				flex-direction: column;
+			}
+			.a{
+				width: 100%;
+			}
+			.b{
+				width: 100%;
+			}
+			.c{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="logo">
+			<img src="logo2.jpg">
+		</div>
+		<nav>
+			<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Product</a></li>
+			<li><a href="">Contact</a></li>
+
+			</ul>
+		</nav>
+		<center>
+		<div class="text">
+			<h1>Welcome to our page</h1>
+			<p>This is web site main page you can search any thing from here , provide best training at our institute</p>
+			<button>click here</button>
+		</div>
+		</center>
+	</div>
+	<!-- section -->
+	<div class="section">
+		<h1>Order Foods</h1>
+		<div class="main">
+			<div class="a">
+				<img src="burger.jpg">
+				<h3>Burger</h3>
+			</div>
+			<div class="b">
+				<img src="chips.jpg">
+				<h3>Chips</h3>
+			</div>
+			<div class="c">
+				<img src="fries.jpg">
+				<h3>Fries</h3>
+			</div>
+			</div>
+	</div>
+			<div class="section">
+				<h1>Best selling</h1>
+			<div class="main">
+			<div class="a">
+				<img src="pasta.jpg">
+				<h3>Pasta</h3>
+			</div>
+			<div class="b">
+				<img src="pizza.jpg">
+				<h3>Pizza</h3>
+			</div>
+			<div class="c">
+				<img src="roll.jpg">
+				<h3>Rolls</h3>
+			</div>
+			</div>
+			</div>
+		
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

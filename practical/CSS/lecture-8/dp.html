@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DROPDOWN</title>
+	<style type="text/css">
+		nav{ width: 100%;
+			height: 200px;
+			border: 5px dotted red;
+
+
+		}
+		nav ul{
+			display:flex;
+
+
+		}
+		nav ul li {display: block;
+			padding: 30px;
+			font-size: 30px;
+
+		}
+		nav ul li a{ text-decoration: none;
+			display: block;
+
+		}
+		.btn{display: none;
+			border: 2px dotted green;
+
+		}
+		.main:hover .btn{display: block;
+			position: absolute;
+			background-color: grey;
+
+		}
+	</style>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li class="main"><a href="">SERVICE</a>
+			<ul class="btn">
+				<a href="">ONLINE</a>
+				<a href="">OFFLINE</a>
+			</ul>
+		<li><a href="">ABOUT</a></li>
+		<li><a href="">CONTAC</a></li>
+		<li><a href="">MAIN PAGE</a></li>
+		<li><a href="">ORDER PAGE</a></li>
+	</ul>
+</nav>
+</body>
+</html>
