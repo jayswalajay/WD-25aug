@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></li>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="logo.png" class="logo">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SPECIFICATION</a></li>
+				<li><a href="#">PRODUCT</a></li>
+				<li><a href="#">CONNECT</a></li>
+			</ul>
+		</div>
+		<div class="contant">
+			<div class="left-col">
+			<h1>THE<br> REAL<br> SOUND</h1>
+			</div>
+		</div>
+		<div class="right-col">
+			<p>Click Here To Listen</p>
+			<img src="play.png" id="icon" onclick="lb()">
+			
+		</div>
+	</div>
+<audio id="mySong">
+	<source src="ring.mp3" type="audio/MP3">
+</audio>
+
+<script type="text/javascript">
+	var mySong = document.getElementById('mySong');
+	var icon = document.getElementById('icon');
+
+	// icon.onclick = function(){
+		function lb()
+		{
+
+		if(mySong.paused)
+		{
+			mySong.play();
+			icon.src ="ring.mp3"
+		}
+		else(mySong.play)
+		{
+			mySong.paused();
+		}
+	}
+</script>
+</body>
+</html>
