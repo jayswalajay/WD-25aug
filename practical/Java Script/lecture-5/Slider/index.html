@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slider</title>
+</head>
+<body>
+	<div>
+		<img src="01.jpg" class="imga" width="100%" height="600px">
+		<img src="02.jpg" class="imga" width="100%" height="600px">
+		<img src="03.jpg" class="imga" width="100%" height="600px">
+		<img src="04.jpg" class="imga" width="100%" height="600px">
+		<img src="05.jpg" class="imga" width="100%" height="600px">
+		<img src="06.jpg" class="imga" width="100%" height="600px">
+		<img src="07.jpg" class="imga" width="100%" height="600px">
+		<img src="08.jpg" class="imga" width="100%" height="600px">
+		<img src="09.jpg" class="imga" width="100%" height="600px">
+		<img src="10.jpg" class="imga" width="100%" height="600px">
+
+	</div>
+
+</body>
+<script type="text/javascript">
+
+
+	counter=0;
+	function slider(){
+		var array=document.getElementsByClassName('imga');
+		for(var i=0; i<array.length; i++)
+		{
+			array[i].style.display="none"
+		}
+
+		if(counter == array.length)
+			{
+				counter=0;
+			}
+
+			array[counter].style.display="block";
+			counter++;
+			setTimeout(slider,3500)
+	}
+	slider();
+
+
+
+</script>
+</html>

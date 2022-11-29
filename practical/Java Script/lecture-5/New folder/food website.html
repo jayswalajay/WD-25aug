@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Food site</title>
+
+</head>
+<body>
+	<header>
+<div class="logo">
+<img src="logo.png"> 
+	
+</div>
+<i class="fa fa-bars" id="bar" onclick="Show()"></i>
+<nav id="menu">
+	<ul>
+		<li>Home</li>
+		<li>Recipe</li>
+		<li>Blog</li>
+		<li>Contact</li>
+
+	</ul>
+	
+</nav>
+<i class="fa fa-close" id="close" onclick="Hide()"></i>
+</header>
+</body>	
+<script type="text/javascript">
+	function Show(){
+		document.getElementById('menu').style.left="0";
+	}
+	function Hide(){
+		document.getElementById('menu').style.left="-480px";
+	}
+</script>
+</html>

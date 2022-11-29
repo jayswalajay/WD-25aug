@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SLider</title>
+	<style type="text/css">
+		.logo img{
+			width: 600px;
+			height: 350px;
+			margin-left: 30%;
+		}
+		.ind img{
+			border-radius: 30px;
+			margin-left: 150px;
+			margin-top: 50px;
+		}
+		.pak{
+
+		}
+	</style>
+</head>
+<body>
+	
+<div class="logo">
+	<img src="india/logo.jpg">
+
+</div>
+<div class="ind">
+	<img src="india/00.jpg" class="bcc"  width="500px" height="450px">
+	<img src="india/01.jpg" class="bcc"  width="500px" height="450px">
+	<img src="india/02.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/03.jfif" class="bcc"  width="500px" height="450px">
+<img src="india/04.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/05.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/06.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/07.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/08.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/09.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/10.jpg" class="bcc"  width="500px" height="450px">
+<img src="india/11.jpg" class="bcc"  width="500px" height="450px">
+
+
+
+</div>
+<div class="pak">
+	<img src="pak/00.png" class="pk" width="500px" height="450px">
+	<img src="pak/01.webp" class="pk" width="500px" height="450px">
+	<img src="pak/02.jpg" class="pk" width="500px" height="450px">
+	<img src="pak/03.webp" class="pk" width="500px" height="450px">
+	<img src="pak/04.webp" class="pk" width="500px" height="450px">
+	<img src="pak/05.webp" class="pk" width="500px" height="450px">
+	<img src="pak/06.jpg" class="pk" width="500px" height="450px">
+	<img src="pak/07.jpg" class="pk" width="500px" height="450px">
+	<img src="pak/08.jfif" class="pk" width="500px" height="450px">
+	<img src="pak/09.webp" class="pk" width="500px" height="450px">
+	<img src="pak/10.webp" class="pk" width="500px" height="450px">
+	<img src="pak/11.webp" class="pk" width="500px" height="450px">
+</div>
+</body>
+<script type="text/javascript">
+	counter=0;
+	function slider(){
+		var array=document.getElementsByClassName('bcc');
+		for(var a=0; a<array.length; a++)
+		{
+			array[a].style.display="none"
+		}
+		if(counter == array.length)
+		{
+			counter=0;
+		}
+		array[counter].style.display="block";
+		counter++;
+		setTimeout(slider,2000)
+	}
+	slider();
+
+
+	
+</script>
+</html>

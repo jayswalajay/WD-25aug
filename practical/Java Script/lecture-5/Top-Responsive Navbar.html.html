@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Navbar</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		body{
+				height: 100vh;
+				width: 100%;
+				background-image:url(03.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+		header{
+			width: 100%;
+			height: 140px;
+		
+		}
+		.logo{
+			width: 10%;
+			height: 140px;
+			float: left;
+
+		}
+		.logo img{
+			width: 100%;
+			height: 100%	;
+		}
+		nav{
+			float: right;
+		}
+		nav ul{
+			display: flex;
+				margin-top: 40px;
+				margin-right: 20px;
+		}
+		nav ul li{
+			padding: 15px;
+			display: inline-block;
+			font-size: 25px;
+			border: 4px double black;
+			border-radius: 20px;
+			background-color: grey;
+
+		}
+		.fa{
+			display: none;
+		}
+		
+		@media(max-width: 480px)
+		{
+
+			.logo{
+				width: 15%;
+				height: 100px;
+				margin-top: 18px;
+			}
+			.logo img{
+				width: 100%;
+				height: 100%;
+			}
+			nav{
+				width: 70%;
+				height: auto;
+				position: absolute;
+				top: -90px;
+				left: 90px;
+				transition: 3s;
+			}
+			nav ul{
+				/*border: 1px solid black;*/
+				text-align: center;
+			}
+				nav	ul li{
+				font-size: 15px;
+				border: 1px solid black;
+				background-color: #213152;
+				color: whitesmoke;
+
+
+
+
+			}
+			#start{ display: block;
+				   position: absolute;
+				   right: 10px;
+				   top: 15px;
+
+			}
+			#close{ display: block;
+					position: absolute;
+				   right: 10px;
+				   top: 97px;
+			}
+		}
+	</style>
+</head>
+<body>
+<header>
+	<div class="logo">
+		<img src="logo.png">
+	</div>
+<i class="fa fa-bars" id="start" onclick="show()"></i>
+	<nav id="main">
+		<ul>
+			<li>Home</li>
+			<li>Service</li>
+			<li>Contact</li>
+			<li>Address</li>
+			<li>About</li>
+		</ul>
+	</nav>
+	<i class="fa fa-close" id="close" onclick="hide()"></i>
+</header>
+</body>
+<script type="text/javascript">
+	function show(){
+		document.getElementById('main').style.top=0;
+	}
+	function hide(){
+		document.getElementById('main').style.top="-90px";
+	}
+
+</script>
+</html>
