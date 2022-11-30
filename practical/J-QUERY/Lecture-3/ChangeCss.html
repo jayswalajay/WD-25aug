@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <title>Change Css</title>
+     <style type="text/css">
+     	div{
+     		width: 300px;
+     		height: 300px;
+     		border: 1px solid black;
+     	}
+
+     </style>
+</head>
+<body>
+<div></div>
+<button>Change Css</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("button").click(function(){
+	$("div").css("backgroundColor","red")
+	});
+	});
+</script>
+</html>

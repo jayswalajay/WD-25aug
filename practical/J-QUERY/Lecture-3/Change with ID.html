@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Change With Id</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<style type="text/css">
+		#main{
+			justify-content: space-between;
+			display: flex;
+		}
+		#cl1,#cl2,#cl3{
+			flex-basis: 31%;
+			border: 1px solid black;
+			height: 250px;
+			background-position: center;
+			background-size: cover;
+		}
+		button{
+			padding: 10px;
+			font-size: 30px;
+			margin-top: 20px;	
+			margin-left: 45%;
+		}
+	</style>
+</head>
+<body>	
+<div id="main">
+	<div id="cl1"></div>
+	<div id="cl2"></div>
+	<div id="cl3"></div>
+</div>
+<button>Click Here</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("button").click(function(){
+	$("#cl1,#cl2,#cl3").css("backgroundImage","url(TAG.jpg)")
+	});
+	});
+</script>
+</html>

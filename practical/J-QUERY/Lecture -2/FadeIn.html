@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FadeIn</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<style type="text/css">
+		.a{width: 200px;
+			height: 150px;
+			border: 4px double black;
+			background-color:orange ;
+			display:none;
+			border-radius: 20px;
+
+		}
+		.b{width: 200px;
+			height: 150px;
+			border: 4px double black;
+			background-color: whitesmoke;
+			display: none;
+			border-radius: 20px;
+
+		}
+		.c{width: 200px;
+			height: 150px;
+			border: 4px double black;
+			background-color: green;
+			display: none;
+			border-radius: 20px;
+
+		}
+		button{
+			padding: 10px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<br><br>
+<button>FadeIn</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("button").click(function(){
+	$(".a").fadeIn(2000)
+	$(".b").fadeIn(4000)
+	$(".c").fadeIn(6000)
+
+	});
+
+	});
+</script>
+</html>

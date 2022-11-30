@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Chain</title>
+</head>
+<body>
+<h1>h1 Tag</h1>
+<h2>h2 tag</h2>
+<h3>h3 tag</h3>
+<h4>h4 tag</h4>
+<h5>h5 tag</h5>
+<h6>h6 tag</h6><br><br>
+<button>Change Css</button>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("button").click(function(){
+    $("h1,h2,h3,h4,h5,h6").css("color","red")
+	});
+	});
+</script>
+</html>

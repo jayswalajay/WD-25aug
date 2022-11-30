@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Remove Class</title>
+
+<style type="text/css">	
+
+	             .a{ width: 200px;
+	             	height: 200px;
+	             	background: coral;
+
+
+
+	}
+	</style>
+</head>
+<body>
+<div class="a"> class removed</div>
+<button>Remove Class</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("button").click(function(){
+	$("div").removeClass("a")
+	});
+	});
+</script>
+</html>

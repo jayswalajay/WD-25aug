@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Slide Down</title>
+	<style type="text/css">
+		.slider{
+			width: 100%;
+			height: 200px;
+			background: orange;
+			border: 1px solid black;
+			text-align: center;
+			line-height: 150px;
+		}
+		button{ padding: 10px;
+			font-size: 40px;
+
+		}
+		.slide{
+			width: 100%;
+			height: 160px;
+			background: limegreen;
+			font-size: 20px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+<div class="slider">
+	<button>Slide Down</button>
+</div>
+<div class="slide">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$(".slide").slideDown(3000)
+		});
+	});
+</script>
+</html>
