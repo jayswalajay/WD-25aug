@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    header{
+        background: black;
+        width: 100%;
+        height: 150px;
+    }
+    nav{
+        background:black ;
+        height: 150px;
+        width: 100%;
+        position:sticky;
+    }
+    ol{
+        text-align: end;
+    }
+    ol li{
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+     ul{
+        float: right;
+        margin-right: 20px;
+    }
+    ul li a:hover{
+        background: rgb(66, 66, 66);
+    }
+    .logo img{
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+     ul li{
+        display: inline-block;
+        line-height: 80px;
+    }
+     ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    a.active, a:hover{
+        background: #1b9bff;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    .button{
+        color: orange !important ;
+        background: rgba(245, 138, 7, 0.1) !important;
+    }
+
+
+.booking{
+    background: rgb(178, 178, 178);
+}
+
+
+.box{
+    height: 330px;
+    width: 80%;
+    margin-left: 10%;
+    background: #187cdf;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-image: url(images/double\ inverted.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40% 40%;
+    color: #fff;
+}
+.content
+{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+.input112{
+    margin-right: 20px;
+}
+
+hr{
+    width:80%;
+}
+
+
+
+
+.review{
+    height: 500px;
+    background: rgb(165, 165, 166);
+}
+ .set{
+	padding: 9px;
+	border-radius: 0.5rem;
+	background: #fff;
+	text-align: center;
+}
+ .set:hover{
+	outline:  2px solid deepskyblue;
+	outline-offset: 0rem;
+
+
+}
+ .set p{
+	font-size: 13px;
+	color: #666;
+	line-height: 1.8;
+	padding: 1rem 0;
+  }
+   .set h3{
+	font-size: 17px;
+	color: #666;
+	line-height: 1.8;
+	padding: 1rem 0;
+}
+     .stars i{
+	font-size: 12px;
+	color: #ff7800;
+}
+
+
+footer{
+    width: 100%;
+    height: 120px;
+    background: black;
+    color: #fff ;
+}
+
+
+
+
+.map iframe{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.pera{
+    width: 80%  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:998px) {
+
+    .checkbtn{
+        display: block;
+        color: black;
+        margin-right: 0;
+    }
+    ol li{
+        margin-top: 30px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #1a74ce;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        background-color: #187cdf;
+}
+     ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+     ul li a{
+        font-size: 20px;
+        color: white;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+.button{
+    color: orange !important ;
+    background: rgba(255, 142, 4, 0.3);
+}
+.d-flex{
+    flex-direction: column;
+}
+.d-flex col{
+    border: solid 2px green;
+}   
+.booking{
+    width: 320%;
+}
+.sec-1{
+    width: 150%;
+}
+.rew{
+    flex-direction: column;
+}
+
+footer{
+    height: 220px;
+}
+
+.review{
+    height: 1000px;
+}
+.rewq{
+    flex-direction: column;
+}
+
+.cem{
+    width:100% !important;
+}
+
+}
+
+
+@media(max-width:650px){
+    .red{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 200% !important;
+    }
+    .map iframe{
+    width: 90%;
+    height: 400px;
+}
+.gep{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
+
+@media(max-width:470px){
+    .booking{
+        width: 340%;
+    }
+    .box{
+        height:auto;
+    }
+    ol li{
+        display:block;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .review{
+        height: 1850px;
+    }
+    .gep{
+    flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
