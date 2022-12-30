@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(20, 50, 5, 0.5),rgba(20, 50, 5, 0.5)), url(deer.jpg);
+	
+	background-size: cover;
+	
+}
+.logo{
+	width: 15%;
+	height: 250px;
+	float: left;
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+.nav{
+
+	height: 250px;
+	/*width: 85%;*/
+	text-align: right;
+
+}
+ul{
+
+}
+ul li{
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: ghostwhite;
+}
+a:hover{
+	font-size: 50px;
+	color: hotpink;
+}
+.text{
+	margin-top: 10%;
+	text-align: center;
+}
+h1{
+	color: ghostwhite;
+	width: 100px;
+	margin-left: 46%;
+
+}
+h1:hover{
+	font-size: 40px;
+	color: red;
+}
+p{
+	font-size: 20px;
+	color: ghostwhite;
+}
+p:hover{
+	font-size: 25px;
+	color: darksalmon;
+
+}
+button{
+	padding: 10px;
+	font-size: 25px;
+	margin-top: 1%;
+}
+button:hover{
+	border-radius: 20%;
+	background: black;
+	color: red;
+	cursor: pointer;
+}
