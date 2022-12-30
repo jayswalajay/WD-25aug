@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>Form events</title>
+</head>
+<body>
+
+	<form id="sb">
+			<label>enter your name</label>
+			<input type="text" name="" id="a1"><br><br>
+			<label>Enter your Country</label>
+			<input type="text" name="" id="a2">
+			<br><br>
+			<input type="submit" name="" value="Submit">
+
+	</form>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#a1").focus(function(){
+			$("#a1").css("backgroundColor","lime")
+		});
+		$("#a2").focus(function(){
+			$("#a2").css("backgroundColor","yellow")
+		});
+			$("#sb").submit(function(){
+				alert("you have submitted form")
+			});
+
+	});
+</script>
+</html>
+
+
+
+
+
+
+

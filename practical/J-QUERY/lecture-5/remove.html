@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>Remove Elements</title>
+</head>
+<body>
+	<h2>This is going to be remove</h2><br><br>
+	<button>Remove</button>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("h2").remove()
+		});
+	});
+</script>
+</html>

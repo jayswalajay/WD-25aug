@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>Scroll Top</title>
+	<style type="text/css">
+		div
+		{
+			width: 100px;
+			height: 100px;
+			overflow: scroll;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		
+	</div>
+	<button>click here to now position</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			alert($("div").scrollTop() + "px");
+		});
+	});
+
+</script>
+</html>

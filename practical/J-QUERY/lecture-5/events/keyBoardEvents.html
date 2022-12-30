@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Key Board Events</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style type="text/css">
+		div
+		{
+			height: 100px;
+			width: 100px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+
+		<div id="a1"></div><br><br>
+		<div id="a2"></div>
+		<br><br>
+		<div id="a3"></div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("body").keypress(function(){
+			$("#a1").css("backgroundColor","green")
+		});
+		$("body").keydown(function(){
+			$("#a2").css("backgroundColor","yellow")
+		});
+		$("body").keyup(function(){
+			$("#a3").css("backgroundColor","red")
+		});
+
+	});
+</script>
+</html>

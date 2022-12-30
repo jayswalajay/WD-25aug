@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<style>
+
+div
+{
+	background: lime;
+	border: 1px solid black;
+
+}
+</style>
+</head>
+<body>
+
+<h1>this is going to be wrap</h1>
+<h1>this is going to be wrap</h1>
+
+<button>Wrap</button>
+
+</body>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1").wrap("<div></div>");
+  });
+});
+</script>
+</html>

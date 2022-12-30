@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>right click</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="a2"></div><br>
+	<button>Click here</button>
+<br><br>
+		<div id="a1"></div><br><br>
+		<div id="a3"></div>
+
+
+</body>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$("button").contextmenu(function(){
+			$("#a2").css("backgroundColor","green")
+		});
+		$("#a1").mouseenter(function(){
+			$('#a1').css("backgroundColor","skyblue")
+		});
+		$("#a3").mouseleave(function(){
+			$("#a3").css("backgroundColor","red")
+		});
+
+	});
+
+
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
