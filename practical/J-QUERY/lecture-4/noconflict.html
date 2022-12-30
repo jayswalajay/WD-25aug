@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>No-Conflict</title>
+</head>
+<body>
+
+	<h1>This is no conflict method</h1>
+	<button>click here</button>
+
+</body>
+<script type="text/javascript">
+
+
+
+	var ssb=$.noConflict()
+	ssb(document).ready(function(){
+		ssb("button").click(function(){
+			ssb("h1").css("color","red")
+		});
+	})
+</script>
+</html>
