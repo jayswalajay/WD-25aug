@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEBSITE LAYOUT WITH IMAGE GALLERY</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+
+		}
+		body{
+			margin: 0;
+			background: gray;
+		}
+		nav{
+			background: #594848;
+			width: 100%;
+			overflow: auto;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		li{
+			float: left;
+		}
+		nav a{
+			width: 120px;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			background: #594848;
+			font-size: 17px;
+			color: white;
+			padding: 20px 10px;
+			font-family: Arial;
+		}
+		nav a:hover{
+			background: skyblue;
+			color: black;
+		}
+		.container{
+			max-width: 1200px;
+			margin: auto;
+			background: #f2f2f2;
+			overflow: auto;
+		}
+		.gallery{
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 390px;
+		}
+		.gallery img{
+			width: 100%;
+			height: auto;
+		}
+		.desc{
+			padding: 15px;
+			text-align: center;
+
+		}
+		footer{
+			padding: 10px;
+			font-size: 17px;
+			font-weight: bold;
+			text-align: center;
+			background: #594848;
+			color: white;
+			font-family: Arial;
+			letter-spacing: 1px;
+		}
+		.aj{
+			margin: 5px;
+			border: 1px solid #ccc;
+			width: 390px;
+			position: absolute;
+			top: 383px;
+		}
+		.aj img{
+			width: 100%;
+			height: auto;
+		}
+		.dk{
+				margin: 5px;
+			border: 1px solid #ccc;
+			width: 390px;
+			position: absolute;
+			top: 383px;
+			left: 475px;
+
+		}
+		.dk img{
+				width: 100%;
+			height: auto;
+
+		}
+	</style>
+</head>
+<body>
+<nav>
+	<ul>
+		<li ><a href="#">Home</a></li>
+		<li ><a href="#">News</a></li>
+		<li ><a href="#">Download</a></li>
+		<li ><a href="#">Gallery</a></li>
+		<li ><a href="#">Contact</a></li>
+	</ul>
+</nav>
+<div class="container">
+
+	<div class="gallery">
+		<img src="cat.jpg">
+		<div class="desc">Cats are wonderful pets. They are very cute and.</div>
+	</div>
+	<div class="gallery">
+		<img src="night-dark.jpg">
+		<div class="desc">A Dark Night I head to bed on a cold winter. </div>
+	</div>
+	<div class="gallery">
+		<img src="mountain.jpg">
+		<div class="desc">A mountain is an elevated portion of the Earth's. </div>
+	</div>
+	<div class="gallery">
+		<img src="couple.jpg">
+		<div class="desc"> Darling, it’s safe to say you are my entire . </div>
+	</div>
+	<div class="aj">
+		<img src="greengrass.jpg">
+		<div class="desc">Green Grass, Running Water Essay.</div>
+	</div>
+	<div class="dk">
+		<img src="hills.jpg">
+		<div class="desc">Visiting a hill station is the best. </div>
+	</div>
+</div>
+<footer>
+	all right reserved web master
+</footer>
+</body>
+</html>
