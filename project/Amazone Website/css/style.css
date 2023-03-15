@@ -1,0 +1,116 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+.navbar{
+	width: 100%;
+	height: auto;
+}
+.navbar-link li{
+	display: inline-block;
+	padding: 5px 25px;
+	transition: 2s;
+	margin-top: 15px;
+	
+}
+.navbar-link a{
+	text-decoration: none;
+	list-style-type: none;
+	color: whitesmoke;
+
+}
+.dropdown-menu{
+	min-width: 250px !important; 
+}
+.bg-white{
+	display: none;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+
+#Mobiles img{
+
+	margin-left: 340px;
+	border-radius: 60px;
+}
+#Laptop img{
+	margin-left: 340px;
+	border-radius: 60px;
+}
+#tv img{
+	margin-left: 340px;
+	
+}
+#audio img{
+	margin-left: 380px;
+	border-radius: 60px;
+
+}
+.navbar-link li:hover{
+	/*background: darkblue;*/
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px;
+}
+.sidebar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.sidebar-link li 
+{
+    display: block;
+    padding: 0px 10px;
+    font-size: 18px;
+
+}
+.ray{
+	margin-top: 170px;
+}
+.br{
+	margin-top: 20px;
+}
+@media  only screen and (min-width:320px) and (max-width:480px)
+{
+	.navbar-link li{
+		display: block !important;
+		padding: 0px 3px !important;
+		font-size: 13px !important;
+
+	}
+	.border{
+		display: block;
+	}
+	#Mobiles img{
+            margin-left: 50px;
+            height: 300px;
+            width: 80%;
+            border: 2px solid darkgray;
+	}
+	#Laptop img{
+            margin-left: 50px;
+            height: 300px;
+            width: 80%;
+            border: 2px solid darkgray;
+	}
+	#tv img{
+            margin-left: 50px;
+            height: 300px;
+            width: 80%;
+            
+	}
+	#audio img{
+            margin-left: 50px;
+            height: 300px;
+            width: 80%;
+            
+	}
+	p{
+		font-size: 13PX;
+	}
+
+}
