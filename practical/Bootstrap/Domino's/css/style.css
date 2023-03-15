@@ -1,0 +1,341 @@
+@import url('font-face.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+html h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+
+#dominos-header
+{
+width: 100%;
+height: auto;
+background: url('../images/pizza.jpg') no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: rgba(5,0,0,0.8);
+}
+.navbar
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(5,0,0,0.6);
+    padding: 5px;
+    top: 0;
+
+}
+.navbar img{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    -webkit-animation: 5s fadeIn infinite;
+    -o-animation: 5s fadeIn infinite;
+    -moz-animation: 5s fadeIn infinite;
+    animation: 5s fadeIn infinite;
+}
+.navbar a{
+    color:whitesmoke;
+
+}
+.navbar-brand
+{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+    font-size: 35px;
+    letter-spacing: 2px;
+ 
+}
+.jj{
+    -webkit-animation: 5s fadeIn infinite;
+    -o-animation: 5s fadeIn infinite;
+    -moz-animation: 5s fadeIn infinite;
+    animation: 5s fadeIn infinite;
+}
+.logo-txt
+{
+     -webkit-animation: 5s fadeIn infinite;
+    -o-animation: 5s fadeIn infinite;
+    -moz-animation: 5s fadeIn infinite;
+    animation: 5s fadeIn infinite;
+    
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 8px 38px;
+
+}
+.navbar-link a 
+{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.bi-facebook,.bi-twitter,.bi-instagram,.bi-youtube
+{
+
+    font-size: 18px;
+    letter-spacing: 8px;
+    margin-top: 5%;
+    padding: 25px 15px !important;
+    color: white;
+}
+.dominoser-slider
+{
+    width: 100%;
+    height: auto;
+
+}
+.slider-text 
+{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+.slider-text h2 
+{
+    text-align: center;
+    font-family: myfont;
+    font-size: 55px;
+    font-family: myfont;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: darkblue;
+}
+.slider-text h1 
+{
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.aj{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.btn-booknow 
+{
+    width: 220px;
+    height: auto;
+    border: none;
+    padding: 5px;
+    background-color: rgb(173, 173, 35) !important;
+}
+.dropdown-menu
+{
+    width: 250px;
+    height: auto;
+    background-color: rgba(5,0,0,0.8) !important;
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
+.dominos-content 
+{
+    width: 100%;
+    height: auto;
+}
+.reservations{
+    width: 40% !important;
+    height: auto;
+    border: 5px double #008b8b !important;
+}
+
+.dominos-feature h3 
+{
+    font-family: myfont;
+    color: #4141e7;
+    font-size: 25px;
+    letter-spacing: 1px; 
+}
+.bi-fan
+{
+    color: darkblue;
+    font-size: 20px;
+}
+.btn-style
+{
+    width: auto;
+    height: auto;
+    background-color:rgb(93, 93, 212)  !important;
+    color: white !important;
+    border: none;
+    padding: 8px !important;
+}
+
+.dominos-open-at
+{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    
+}
+.dominos-open-at-txt
+{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 6% !important;
+    border: 2px dashed darkblue;
+    padding: 25px 5px;
+    text-align: center;
+    position: absolute;
+    
+    background:rgb(107, 95, 95);
+}
+.dominos-open-at-txt h2,h5 
+{
+    color: darkblue;
+    font-family: myfont;
+}
+.dominos-discover{
+    margin-top: 280px;
+}
+.dominos-discover,.dominos-blogs,.dominos-gallery
+{
+    width: 100%;
+    height: auto;
+   
+}
+.dominos-discover .kj{
+    margin-left: 100px;
+}
+.dominos-blogs h2 
+{
+    font-weight: 400;
+    font-size: 25px !important;
+    padding: 5px;
+}
+.dominos-discover h2,.dominos-gallery h2 
+{
+    font-size: 36px;
+    font-family: myfont1;
+    color: blue;
+}
+.dominos-gallery img 
+{
+    width: 24%;
+    height: 220px;
+}
+.txt-col
+{
+    color: blue;
+    font-weight: 400;
+}
+
+#dominos-footer
+{
+    width: 100%;
+    height: auto;
+    background: url('../images/architecture-1837150.png') no-repeat;
+    background-size: cover;
+
+ 
+
+}
+
+.footer-section
+{
+    width: 100% !important;
+    height:auto;
+    background-color: rgba(25,0,0,0.7) !important;
+    filter: brightness(50%);
+
+}
+.bottom-footer
+{
+    width: 100%;
+    height: auto;
+    background-color: #171313;
+}
+.navbar-footer li 
+{
+display: block;
+padding: 2px 5px;
+text-decoration: none;
+list-style-type: none;
+}
+.navbar-footer li a 
+{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card button{
+    background: darkblue;
+}
+.user{
+    height: auto;
+    width: 300px;
+    margin-left: 400px;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.navbar-link li 
+{
+    display:block;
+    padding: 8px 8px;
+    border-bottom: outset  1px rgb(23, 22, 22) !important;
+}
+.slider-para
+{
+    min-width: 100% !important;
+    height: auto;
+    text-align: justify;
+}
+.bi-facebook,.bi-twitter,.bi-instagram,.bi-youtube
+{
+
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 5%;
+    padding: 20px 5px !important;
+    color: white;
+}
+
+.dominos-open-at
+{
+    width: 100%;
+    height:400px;
+    background: url('../images/restaurant-691397.png') no-repeat !important;
+    background-size:cover;
+    background-attachment: fixed;
+    filter: brightness(90%) !important;
+    position: relative;
+    /* background-color: rgba(5,0,0,0.2) !important; */
+}
+.reservations{
+    width: 100% !important;
+    height: auto;
+}
+.dominos-open-at-txt{
+    font-size: 13px;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    
+}
+ #offeraj{
+    margin-right:100px !important;
+    
+}
+
+} 
